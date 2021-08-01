@@ -1,0 +1,44 @@
+.TodoTemplate {
+  padding: 30px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  overflow: hidden;
+  .add-todo-button {
+    position: relative;
+    top: -20px;
+    width: 100px;
+    background: #a685dc;
+    color: white;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center; //위아래 가운데
+    justify-content: center; //양옆 가운데
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    cursor: pointer;
+    &:hover {
+      background: #d8caf0;
+    }
+  }
+}
+
+.app-title {
+  background: #a685dc; //배경색
+  color: white; //글씨색
+  height: 4rem; // 바탕 높이
+  font-size: 1.5rem;
+  display: flex; //잘모르겟음 개념이 요상함
+  align-items: center; //위아래 가운데
+  justify-content: center; //양옆 가운데
+}
+.content {
+  margin-top: 20px;
+  background: white;
+}
